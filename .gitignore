@@ -7,3 +7,5 @@ __pycache__/
 .envrc
 *.db
 static/
+deoldify/models/
+*.pth
