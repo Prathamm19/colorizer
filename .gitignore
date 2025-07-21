@@ -116,6 +116,8 @@ celerybeat.pid
 
 # SageMath
 *.sage.py
+app/models/
+*.pth
 
 # Environments
 .env
