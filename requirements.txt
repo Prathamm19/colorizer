@@ -15,5 +15,3 @@ python-multipart
 gdown
 uvicorn
 fastapi
-
--e ./deoldify
