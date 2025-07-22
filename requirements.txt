@@ -3,7 +3,7 @@ tensorboardX>=1.6
 ffmpeg-python
 yt-dlp
 opencv-python>=4.2.0.32
-Pillow==9.5.0  # Last stable version before 10.x
+Pillow==9.4.0  
 torch==2.5.0
 torchvision==0.20.0
 ipywidgets
