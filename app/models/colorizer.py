@@ -5,9 +5,12 @@ import os
 from pathlib import Path
 import os
 import subprocess
+import sys
 
 if not os.path.exists('DeOldify'):
     subprocess.run(['git', 'clone', 'https://github.com/jantic/DeOldify.git'])
+
+sys.path.append(os.path.abspath("DeOldify"))
 
 # Now you can do:
 from DeOldify.deoldify.visualize import get_image_colorizer
