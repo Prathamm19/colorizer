@@ -11,3 +11,4 @@ python-multipart
 gdown
 uvicorn==0.22.0
 fastapi
+git+https://github.com/jantic/DeOldify.git
