@@ -1,3 +1,5 @@
+git+https://github.com/jantic/DeOldify.git
+
 fastai==1.0.61
 tensorboardX>=1.6
 ffmpeg-python
@@ -11,4 +13,4 @@ python-multipart
 gdown
 uvicorn==0.22.0
 fastapi
-git+https://github.com/jantic/DeOldify.git
+
