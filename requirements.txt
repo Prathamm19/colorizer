@@ -1,6 +1,11 @@
-fastapi
-uvicorn
-pillow
-opencv-python
-torch
-tensorflow
+fastai==1.0.61
+tensorboardX>=1.6
+ffmpeg-python
+yt-dlp
+opencv-python>=4.2.0.32
+Pillow==9.3.0
+torch==2.5.0
+torchvision==0.20.0
+ipywidgets
+python-multipart
+gdown
