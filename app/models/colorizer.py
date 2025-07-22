@@ -10,7 +10,15 @@ import sys
 if not os.path.exists('DeOldify'):
     subprocess.run(['git', 'clone', 'https://github.com/jantic/DeOldify.git'])
 
-sys.path.append(os.path.abspath("DeOldify"))
+
+
+# Add DeOldify to path
+sys.path.append(str(Path("DeOldify").resolve()))
+
+# Create required dummy folder structure
+dummy_path = Path("DeOldify/dummy/test")
+dummy_path.mkdir(parents=True, exist_ok=True)
+
 
 # Now you can do:
 from DeOldify.deoldify.visualize import get_image_colorizer
