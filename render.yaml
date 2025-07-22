@@ -3,8 +3,10 @@ services:
     name: colorizer-api
     env: python
     plan: free
-    region: oregon  # or choose another region
+    region: oregon
     branch: main
-    buildCommand: pip install -r requirements.txt
+    buildCommand: |
+      echo "python-3.10.13" > runtime.txt
+      pip install -r requirements.txt
     startCommand: uvicorn app.main:app --host 0.0.0.0 --port 10000
     autoDeploy: true
