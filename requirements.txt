@@ -9,3 +9,4 @@ torchvision==0.20.0
 ipywidgets
 python-multipart
 gdown
+uvicorn==0.22.0
