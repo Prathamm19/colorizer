@@ -15,4 +15,5 @@ python-multipart
 gdown
 uvicorn
 fastapi
-git+https://github.com/jantic/DeOldify.git
+
+-e ./deoldify
