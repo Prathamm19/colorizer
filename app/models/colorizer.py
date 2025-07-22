@@ -1,8 +1,17 @@
-from deoldify.visualize import get_image_colorizer
+
 from PIL import Image
 import tempfile
 import os
 from pathlib import Path
+import os
+import subprocess
+
+if not os.path.exists('DeOldify'):
+    subprocess.run(['git', 'clone', 'https://github.com/jantic/DeOldify.git'])
+
+# Now you can do:
+from DeOldify.deoldify.visualize import get_image_colorizer
+
 
 # Define colorizer ONCE at the module level
 colorizer = get_image_colorizer(artistic=True, root_folder=Path("C:/Users/prath/OneDrive/Desktop/Today/project_root"))
