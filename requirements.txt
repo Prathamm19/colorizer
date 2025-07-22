@@ -10,3 +10,4 @@ ipywidgets
 python-multipart
 gdown
 uvicorn==0.22.0
+fastapi
