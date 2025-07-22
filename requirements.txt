@@ -1,16 +1,19 @@
-git+https://github.com/jantic/DeOldify.git
+--extra-index-url https://download.pytorch.org/whl/cu113
 
 fastai==1.0.61
 tensorboardX>=1.6
+ffmpeg
 ffmpeg-python
 yt-dlp
+jupyterlab
 opencv-python>=4.2.0.32
-Pillow==9.4.0  
+Pillow==9.3.0
 torch==2.5.0
 torchvision==0.20.0
 ipywidgets
 python-multipart
 gdown
-uvicorn==0.22.0
+uvicorn
 fastapi
 
+git+https://github.com/jantic/DeOldify.git
